@@ -6,3 +6,17 @@
   max-height: 400px;
   overflow: auto;
 }
+
+.formWrapper {
+	margin: 50px 60px;
+}
+
+.buttonStyle {
+	background-color: transparent;
+	border: none;
+	color: grey;
+}
+
+.buttonStyle:hover {
+	color: red;
+}
