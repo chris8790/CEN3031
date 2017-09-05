@@ -9,7 +9,8 @@
   "author": "Medhir Bhargava",
   "license": "MIT",
   "dependencies": {
-    "mongoose": "^4.11.9"
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.10"
   },
   "devDependencies": {
     "should": "^7.1.1"
