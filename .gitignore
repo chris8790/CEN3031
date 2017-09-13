@@ -1,2 +1,11 @@
-/server/config/config.js
-node_modules/
+# osx
+.DS_Store
+
+# configuration files
+server/config/config.js
+
+# node
+node_modules
+
+# bower
+public
