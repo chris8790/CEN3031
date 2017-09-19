@@ -12,12 +12,14 @@
   <div class="col-md-offset-1 col-md-10">
     <!-- Google Maps -->
     <ui-gmap-google-map center="map.center" zoom="map.zoom">
+      <!-- Add markers -->
       <ui-gmap-markers models="listings" coords="'coordinates'" idkey="'_id'">
+        <!-- Add marker description windows -->
         <ui-gmap-windows show="show">
           <div ng-non-bindable>
-            <p><b>Name:</b> {{ name }}</p>
-            <p><b>Code:</b> {{ code }}</p>
-            <p><b>Address:</b> {{ address }}</p>
+            <b>Name:</b> {{ name }} </br>
+            <b>Code:</b> {{ code }} </br>
+            <b>Address:</b> {{ address }}
           </div>
         </ui-gmap-windows>
       </ui-gmap-markers>
